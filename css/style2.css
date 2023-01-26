@@ -1,0 +1,59 @@
+.back {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 550px;
+    width: 850px;
+    border: black solid 5px;
+    background-image: url(../img/back.png);
+    overflow: hidden;
+    
+}
+.iniciar {
+    position: absolute;
+}
+
+.placar {
+    margin-top: 0px;
+    margin-left: 365px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+}
+
+.seg {
+    margin-left: 465px;
+}
+
+.bola {
+    width: 60px;
+    height: 60px;
+    bottom:320px;
+    position: absolute;
+    left: 465px
+    
+}
+
+.barra1 {
+    margin-left: -60px;
+    bottom:280px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+.barra2 {
+    margin-left: 755px;
+      bottom:100px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+
+
+  .inv {
+    opacity: 0;
+  }
